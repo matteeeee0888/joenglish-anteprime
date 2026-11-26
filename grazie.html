@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sei dentro! | Sblocca l'Inglese | JoEnglish</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+.je-ty{--navy:#132883;--sky:#2bb6f3;--green:#15cd91;--green-d:#0ea374;--orange:#ff8c04;--yellow:#ffc629;--wa:#25d366;--wa-d:#1aa851;--fb:#1877f2;--tg:#2aabee;--ice:#eef8fd;--ink:#132883;--muted:#5d6385;--line:#e3e8f2;
+  font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.6;font-size:17px;overflow-x:hidden}
+.je-ty *{box-sizing:border-box}
+.je-ty img{max-width:100%;height:auto;display:block}
+.je-wrap{max-width:1060px;margin:0 auto;padding:0 20px;position:relative;z-index:1}
+.je-ty h1,.je-ty h2,.je-ty h3{line-height:1.15;margin:0 0 12px;font-weight:800}
+.je-ty p{margin:0 0 14px}
+.je-hand{font-family:"Gochi Hand",cursive;font-weight:400}
+.je-ty h2.je-hand{font-size:44px;line-height:1.1;color:var(--navy);text-align:center}
+.je-ty h2.je-hand span{color:var(--sky)}
+
+.je-top{background:var(--navy);color:#fff;text-align:center;font-weight:600;font-size:14px;padding:10px 16px}
+.je-top b{color:var(--yellow)}
+.je-head{background:#fff;padding:14px 0;text-align:center}
+.je-head img{width:150px;margin:0 auto}
+
+.je-progress{max-width:520px;margin:0 auto 26px}
+.je-progress-bar{height:12px;border-radius:999px;background:rgba(255,255,255,.25);overflow:hidden}
+.je-progress-bar i{display:block;height:100%;width:66%;background:var(--yellow);border-radius:999px}
+.je-progress p{margin:8px 0 0;font-size:14px;font-weight:700;text-align:center;color:#fff}
+
+.je-hero{position:relative;background:var(--navy) url("https://joenglish.com/build/images/background-header.3cbc11b9.png") center bottom/cover no-repeat;color:#fff;padding:36px 0 150px;text-align:center}
+.je-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,27,94,.88) 0%,rgba(19,40,131,.7) 60%,rgba(19,40,131,.2) 100%);pointer-events:none}
+.je-hero-joe{width:150px;margin:0 auto 6px;filter:drop-shadow(0 10px 18px rgba(0,0,0,.3))}
+.je-hero h1{font-family:"Gochi Hand",cursive;font-weight:400;font-size:76px;line-height:1;color:var(--yellow);text-shadow:0 4px 0 rgba(0,0,0,.25);margin:0 0 8px}
+.je-hero .je-lead{font-size:21px;font-weight:700;max-width:680px;margin:0 auto 10px;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.je-hero .je-lead span{color:var(--yellow)}
+.je-hero .je-sub{font-size:17px;max-width:620px;margin:0 auto;opacity:.95}
+
+.je-share{margin-top:-90px;position:relative;z-index:2}
+.je-share-box{background:#fff;border-radius:28px;box-shadow:0 24px 50px -22px rgba(19,40,131,.5);padding:34px;display:grid;grid-template-columns:.85fr 1.15fr;gap:36px;align-items:center}
+.je-share-img{position:relative}
+.je-share-img .je-blob{position:absolute;inset:-14px -10px 0 -12px;background:var(--orange);opacity:.9;border-radius:42% 58% 63% 37% / 45% 40% 60% 55%;transform:rotate(-5deg)}
+.je-share-img img{position:relative;z-index:1;max-width:320px;margin:0 auto}
+.je-share-tag{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:800;font-size:13px;letter-spacing:.08em;border-radius:999px;padding:6px 14px;margin-bottom:12px}
+.je-share h2{font-family:"Gochi Hand",cursive;font-weight:400;font-size:44px;line-height:1.05;color:var(--navy);margin:0 0 12px}
+.je-share h2 span{color:var(--green-d)}
+.je-share p{font-size:17px;color:var(--muted)}
+.je-share p b{color:var(--navy)}
+.je-msg{background:#e7f8ee;border-radius:16px 16px 16px 4px;padding:14px 16px;font-size:15px;line-height:1.5;color:#123;margin:16px 0 18px;position:relative}
+.je-msg small{display:block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--wa-d);margin-bottom:4px}
+.je-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.je-sbtn{display:flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:14px;padding:14px 12px;font:inherit;font-weight:800;font-size:16px;color:#fff;text-decoration:none;cursor:pointer;transition:transform .08s,box-shadow .08s}
+.je-sbtn svg{width:22px;height:22px;flex:none;fill:#fff}
+.je-sbtn:hover{transform:translateY(2px)}
+.je-sbtn:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.je-wa{grid-column:1/-1;background:var(--wa);box-shadow:0 6px 0 var(--wa-d);font-size:19px;padding:17px}
+.je-fb{background:var(--fb);box-shadow:0 5px 0 #0f5bc0}
+.je-tg{background:var(--tg);box-shadow:0 5px 0 #1a86bd}
+.je-mail{background:var(--navy);box-shadow:0 5px 0 #0a1754}
+.je-copy{background:#fff;color:var(--navy);border:2px solid var(--line);box-shadow:0 5px 0 var(--line)}
+.je-copy svg{fill:var(--navy)}
+.je-copied{display:block;text-align:center;font-size:13px;font-weight:700;color:var(--green-d);min-height:20px;margin-top:10px}
+.je-link{display:block;margin-top:4px;font-size:13px;color:var(--muted);text-align:center;word-break:break-all;user-select:all}
+
+.je-sec{padding:70px 0;position:relative}
+.je-ice{background:var(--ice)}
+.je-wave{display:block;width:100%;height:120px;margin-bottom:-1px}
+.je-center{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 34px;font-size:18px}
+
+.je-who{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.je-who div{background:#fff;border-radius:20px;padding:20px 18px;box-shadow:0 10px 26px -18px rgba(19,40,131,.45)}
+.je-who .je-emo{font-size:34px;line-height:1;display:block;margin-bottom:10px}
+.je-who b{display:block;font-size:16px;color:var(--navy);margin-bottom:4px;line-height:1.3}
+.je-who p{font-size:14.5px;color:var(--muted);margin:0}
+
+.je-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.je-step{text-align:center}
+.je-step-n{width:64px;height:64px;margin:0 auto 12px;border-radius:42% 58% 63% 37% / 45% 40% 60% 55%;display:flex;align-items:center;justify-content:center;font-family:"Gochi Hand",cursive;font-size:34px;color:#fff;background:var(--sky)}
+.je-step:nth-child(2) .je-step-n{background:var(--green)}
+.je-step:nth-child(3) .je-step-n{background:var(--orange)}
+.je-step h3{font-size:19px}
+.je-step p{font-size:15.5px;color:var(--muted);max-width:300px;margin:0 auto 14px}
+.je-cal{display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.je-cal a{display:inline-block;font-size:14px;font-weight:700;color:var(--navy);background:#fff;border:2px solid var(--line);border-radius:10px;padding:8px 12px;text-decoration:none}
+.je-cal a:hover{border-color:var(--sky)}
+
+.je-count{display:flex;justify-content:center;gap:10px;margin:22px auto 0}
+.je-count div{background:#fff;border-radius:14px;min-width:78px;text-align:center;padding:10px 6px;box-shadow:0 8px 20px -14px rgba(19,40,131,.5)}
+.je-count b{display:block;font-size:30px;color:var(--navy);line-height:1.1;font-variant-numeric:tabular-nums}
+.je-count small{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+
+.je-end{background:var(--navy) url("https://joenglish.com/build/images/background-footer.64a9ca47.png") center top/cover no-repeat;color:#fff;text-align:center;padding:150px 0 80px}
+.je-end h2.je-hand{color:#fff}
+.je-end h2.je-hand span{color:var(--yellow)}
+.je-end p{max-width:620px;margin:0 auto 22px;color:rgba(255,255,255,.88)}
+.je-end .je-sbtn{max-width:420px;margin:0 auto}
+@media (prefers-reduced-motion:reduce){.je-sbtn{transition:none}}
+
+@media (max-width:900px){
+  .je-ty{font-size:16px}
+  .je-hero{padding:24px 0 120px}
+  .je-hero-joe{width:110px}
+  .je-hero h1{font-size:54px}
+  .je-hero .je-lead{font-size:18px}
+  .je-hero .je-sub{font-size:15.5px}
+  .je-share{margin-top:-80px}
+  .je-share-box{grid-template-columns:1fr;padding:24px 18px;gap:22px}
+  .je-share-img img{max-width:220px}
+  .je-share h2{font-size:34px;text-align:center}
+  .je-share-tag{display:table;margin:0 auto 12px}
+  .je-share p{text-align:center}
+  .je-ty h2.je-hand{font-size:34px}
+  .je-sec{padding:50px 0}
+  .je-wave{height:70px}
+  .je-who{grid-template-columns:1fr 1fr;gap:12px}
+  .je-who div{padding:16px 14px}
+  .je-steps{grid-template-columns:1fr;gap:30px}
+  .je-count div{min-width:64px}
+  .je-count b{font-size:24px}
+  .je-end{padding:110px 0 60px}
+}
+</style>
+</head>
+<body style="margin:0;background:#fff">
+<div class="je-ty">
+
+  <div class="je-top">SBLOCCA L'INGLESE &middot; <b>si parte <span class="je-date">marted&#236; 19 gennaio</span> alle <span class="je-time">20:30</span></b></div>
+  <div class="je-head"><img src="https://imparalingleseconjoenglish.it/wp-content/uploads/2025/11/Logo_JoEnglish-600x195.webp" alt="JoEnglish"></div>
+
+  <section class="je-hero">
+    <div class="je-wrap">
+      <div class="je-progress"><div class="je-progress-bar"><i></i></div><p>Passaggio 2 di 3: manca solo una cosa</p></div>
+      <img class="je-hero-joe" src="https://joenglish.com/userfiles/image_cache/layout/232x232-cr/j/o/e/-/y/joe-yespng.png" alt="Joe">
+      <h1>Sei dentro!</h1>
+      <p class="je-lead">Il tuo posto a Sblocca l'Inglese &#232; confermato. <span>Ci vediamo <span class="je-date">marted&#236; 19 gennaio</span> alle <span class="je-time">20:30</span>.</span></p>
+      <p class="je-sub">Tra poco ti arriva una email con tutti i dettagli e il primo bonus, il Diario della Challenge. Prima di chiudere questa pagina, per&#242;, fai una cosa.</p>
+    </div>
+  </section>
+
+  <section class="je-share">
+    <div class="je-wrap">
+      <div class="je-share-box">
+        <div class="je-share-img">
+          <span class="je-blob"></span>
+          <img src="https://imparalingleseconjoenglish.it/wp-content/uploads/2026/01/jomoglie-600x642.png" alt="Joe e Pamy">
+        </div>
+        <div>
+          <span class="je-share-tag">&#128073; ULTIMO PASSAGGIO</span>
+          <h2>Non farla da solo: <span>porta qualcuno con te</span></h2>
+          <p>Le challenge si mollano da soli, e si finiscono in compagnia. Con un amico, un collega o il tuo partner arrivare al giorno 7 &#232; molto pi&#249; facile: vi ricordate a vicenda la diretta, vi raccontate le sfide, <b>vi prendete in giro in inglese</b>.</p>
+          <div class="je-msg"><small>Il messaggio che invii</small><span data-je-msg></span></div>
+          <div class="je-btns">
+            <a class="je-sbtn je-wa" data-share="wa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2z"/></svg>Invita su WhatsApp</a>
+            <a class="je-sbtn je-fb" data-share="fb" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.3c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1v2.2H8v3.6h2.6V22H14v-9.9h2.7l.4-3.6H14z"/></svg>Facebook</a>
+            <a class="je-sbtn je-tg" data-share="tg" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.2l-4.7-1.5c-1-.3-1-1 .2-1.5L20.4 3c.9-.3 1.6.2 1.5 1.3z"/></svg>Telegram</a>
+            <a class="je-sbtn je-mail" data-share="mail" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4 7.3V17h16V7.3l-8 4.9zM4.6 7l7.4 4.5L19.4 7H4.6z"/></svg>Email</a>
+            <button class="je-sbtn je-copy" type="button" data-share="copy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h11a2 2 0 0 1 2 2v11h-2V5H8V3zM5 7h10a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zm0 2v11h10V9H5z"/></svg>Copia il link</button>
+          </div>
+          <span class="je-copied" data-je-copied></span>
+          <span class="je-link" data-je-link></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="je-sec" style="padding-top:60px">
+    <div class="je-wrap">
+      <h2 class="je-hand">A chi lo <span>mandi?</span></h2>
+      <p class="je-center">Ci sono almeno quattro persone a cui stai gi&#224; pensando.</p>
+      <div class="je-who">
+        <div><span class="je-emo">&#128188;</span><b>Il collega che in riunione resta zitto</b><p>Quello che sa tutto, ma in inglese non apre bocca.</p></div>
+        <div><span class="je-emo">&#9992;&#65039;</span><b>Chi parte con te quest'estate</b><p>Cos&#236; al ristorante a Londra non parla sempre lo stesso.</p></div>
+        <div><span class="je-emo">&#128149;</span><b>Il tuo partner</b><p>La challenge pi&#249; bella &#232; quella che fate sul divano, insieme.</p></div>
+        <div><span class="je-emo">&#128221;</span><b>L'amico dei buoni propositi</b><p>Quello che ogni gennaio dice "quest'anno imparo l'inglese".</p></div>
+      </div>
+    </div>
+  </section>
+
+  <svg class="je-wave" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true"><path fill="#eef8fd" d="M0 70 C180 20 360 10 560 50 C800 98 1000 130 1200 92 C1320 70 1400 48 1440 40 L1440 150 L0 150 Z"/></svg>
+  <section class="je-sec je-ice" style="padding-top:30px">
+    <div class="je-wrap">
+      <h2 class="je-hand">E adesso <span>cosa succede?</span></h2>
+      <p class="je-center">Tre cose da fare prima del 19 gennaio, per arrivare pronto.</p>
+      <div class="je-steps">
+        <div class="je-step"><div class="je-step-n">1</div><h3>Apri l'email di conferma</h3><p>Dentro trovi il Diario della Challenge. Se non la vedi, controlla in Spam o Promozioni e sposta la mail nella posta principale.</p></div>
+        <div class="je-step"><div class="je-step-n">2</div><h3>Segna la data</h3><p>Marted&#236; 19 gennaio alle 20:30 c'&#232; la diretta di apertura con Joe. Mettila in calendario adesso.</p>
+          <div class="je-cal"><a data-cal="google" href="#" target="_blank" rel="noopener">+ Google Calendar</a><a data-cal="outlook" href="#" target="_blank" rel="noopener">+ Outlook</a></div></div>
+        <div class="je-step"><div class="je-step-n">3</div><h3>Porta un amico</h3><p>Manda il link a una persona sola. Se la fate in due, arrivate al giorno 7.</p>
+          <div class="je-cal"><a href="#" data-share="wa" target="_blank" rel="noopener">Invita su WhatsApp</a></div></div>
+      </div>
+      <div class="je-count" data-je-count>
+        <div><b data-d>--</b><small>giorni</small></div>
+        <div><b data-h>--</b><small>ore</small></div>
+        <div><b data-m>--</b><small>min</small></div>
+        <div><b data-s>--</b><small>sec</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="je-end">
+    <div class="je-wrap">
+      <h2 class="je-hand">Ci vediamo <span>in diretta!</span></h2>
+      <p>Prima di andare, manda il link a una persona. Bastano dieci secondi, e il 19 gennaio non sarai da solo.</p>
+      <a class="je-sbtn je-wa" data-share="wa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>Invita un amico su WhatsApp</a>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var EVENT = {
+    shareUrl: "https://imparalingleseconjoenglish.it/op/sblocca-linglese/",
+    start: "2027-01-19T20:30:00+01:00",
+    end: "2027-01-19T21:30:00+01:00",
+    label: "marted\u00ec 19 gennaio",
+    time: "20:30"
+  };
+  var root = document.querySelector(".je-ty");
+  if (!root) return;
+  root.querySelectorAll(".je-date").forEach(function(el){ el.textContent = EVENT.label; });
+  root.querySelectorAll(".je-time").forEach(function(el){ el.textContent = EVENT.time; });
+
+  var msg = "Ho appena preso il mio posto a Sblocca l'Inglese, la challenge gratuita di 7 giorni con Joe di JoEnglish. Si parte " + EVENT.label + " alle " + EVENT.time + ". La facciamo insieme? Iscriviti qui: " + EVENT.shareUrl;
+  var subject = "Facciamo insieme Sblocca l'Inglese?";
+  var m = root.querySelector("[data-je-msg]"); if (m) m.textContent = msg;
+  var l = root.querySelector("[data-je-link]"); if (l) l.textContent = EVENT.shareUrl;
+  var enc = encodeURIComponent;
+  var links = {
+    wa: "https://wa.me/?text=" + enc(msg),
+    fb: "https://www.facebook.com/sharer/sharer.php?u=" + enc(EVENT.shareUrl),
+    tg: "https://t.me/share/url?url=" + enc(EVENT.shareUrl) + "&text=" + enc(msg.replace(" Iscriviti qui: " + EVENT.shareUrl, "")),
+    mail: "mailto:?subject=" + enc(subject) + "&body=" + enc(msg)
+  };
+  root.querySelectorAll("[data-share]").forEach(function(el){
+    var k = el.getAttribute("data-share");
+    if (links[k]) el.setAttribute("href", links[k]);
+  });
+  var copied = root.querySelector("[data-je-copied]");
+  var copyBtn = root.querySelector('[data-share="copy"]');
+  if (copyBtn) copyBtn.addEventListener("click", function(){
+    var done = function(){ if (copied) copied.textContent = "Link copiato! Incollalo dove vuoi."; };
+    var fail = function(){
+      if (copied) copied.textContent = "Tieni premuto il link qui sotto per copiarlo.";
+      if (l && window.getSelection) { var r = document.createRange(); r.selectNodeContents(l); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+    };
+    try { navigator.clipboard.writeText(EVENT.shareUrl).then(done, fail); } catch (e) { fail(); }
+  });
+
+  var fmt = function(iso){ return new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); };
+  var title = "Sblocca l'Inglese: diretta di apertura con Joe";
+  var details = "Challenge gratuita di 7 giorni con Joe di JoEnglish. Il link per entrare arriva via email.";
+  var cal = {
+    google: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + enc(title) + "&dates=" + fmt(EVENT.start) + "/" + fmt(EVENT.end) + "&details=" + enc(details),
+    outlook: "https://outlook.live.com/calendar/0/deeplink/compose?subject=" + enc(title) + "&startdt=" + enc(new Date(EVENT.start).toISOString()) + "&enddt=" + enc(new Date(EVENT.end).toISOString()) + "&body=" + enc(details)
+  };
+  root.querySelectorAll("[data-cal]").forEach(function(el){ el.setAttribute("href", cal[el.getAttribute("data-cal")]); });
+
+  var box = root.querySelector("[data-je-count]");
+  var endT = new Date(EVENT.start).getTime();
+  if (box && !isNaN(endT)) {
+    var pad = function(n){ return (n < 10 ? "0" : "") + n; };
+    var tick = function(){
+      var t = Math.max(0, endT - Date.now());
+      box.querySelector("[data-d]").textContent = pad(Math.floor(t / 864e5));
+      box.querySelector("[data-h]").textContent = pad(Math.floor(t / 36e5) % 24);
+      box.querySelector("[data-m]").textContent = pad(Math.floor(t / 6e4) % 60);
+      box.querySelector("[data-s]").textContent = pad(Math.floor(t / 1e3) % 60);
+    };
+    tick(); setInterval(tick, 1000);
+  }
+  if (window.fbq) window.fbq("track", "Lead");
+})();
+</script>
+</body>
+</html>
